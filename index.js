@@ -6,9 +6,9 @@ var io = require('socket.io')(server);
 app.use(express.static("./public"));
 
 io.on('connection', (client) => {
-    client.on('event', (data) => {
+    client.on('data', (data) => {
         console.log(`From client: ${data}`)
-        client.emit("Reply:" + data);
+        client.emit("data", "Reply:" + data);
     });
 });
 
