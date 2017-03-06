@@ -1,0 +1,23 @@
+{
+  "name": "carmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlbdk/carmap.git"
+  },
+  "author": "Troels Liebe Bentsen <tlb@rapanden.dk> (http://tlbdk.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlbdk/carmap/issues"
+  },
+  "homepage": "https://github.com/tlbdk/carmap#readme",
+  "dependencies": {
+    "express": "^4.15.1",
+    "socket.io": "^1.7.3"
+  }
+}
